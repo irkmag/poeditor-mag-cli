@@ -18,3 +18,10 @@ Inside this file need to set parameters:
 ```
 
 Related project is `gettext-extract` - https://www.npmjs.com/package/gettext-extract this can be used for collect strings into `pot`-file.
+
+h3. Command line examples:
+
+```
+node index.js upload -c ./.translations-config.json
+node index.js download -c ./.translations-config.json
+```
